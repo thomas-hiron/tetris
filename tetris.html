@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8">
+		<title>Tetris</title>
+		<script type="text/javascript" src="init.js"></script>
+		<script type="text/javascript" src="Tetris.js"></script>
+		<script type="text/javascript" src="Ligne.js"></script>
+		<script type="text/javascript" src="Bloc.js"></script>
+		<script type="text/javascript" src="Case.js"></script>
+	</head>
+	<body>
+		<style type="text/css">
+			body {
+				background-color: #c6c6c6;
+				text-align:center;
+				padding-top:120px;
+			}
+			body>div {
+				position: relative;
+			}
+			canvas {
+				background-color: #999;
+				border-radius: 5px;
+				-webkit-border-radius: 5px;
+				padding: 2px;
+			}
+			.jouer {
+				position: relative;
+				top: 270px;
+				font-size:30px;
+				width:70px;
+				margin:auto;
+				font-family:Myriad Pro;
+			}
+			.jouer:hover {
+				cursor:pointer;
+			}
+		</style>
+		<div>
+			<p style="visibility:visible;" class="jouer">Jouer</p>
+			<canvas width="390" height="519">
+				Ce jeu n'est pas compatible sur votre navigateur.
+			</canvas>
+		</div>
+	</body>
+</html>
