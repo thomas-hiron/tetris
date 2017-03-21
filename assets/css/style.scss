@@ -3,16 +3,10 @@
 
 @import "{{ site.theme }}";
 
-body {
-  background-color: #c6c6c6;
-  text-align:center;
-  padding-top:120px;
-}
-body>div {
-  position: relative;
-}
 canvas {
-  background-color: #999;
+  display: block;
+  margin: auto;
+  background-color: #CCC;
   border-radius: 5px;
   -webkit-border-radius: 5px;
   padding: 2px;
