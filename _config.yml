@@ -1,1 +1,4 @@
 theme: jekyll-theme-cayman
+title: "Tetris"
+description: "Developed with prototype and canvas"
+show_downloads: "true"
